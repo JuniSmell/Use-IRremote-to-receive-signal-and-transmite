@@ -17,7 +17,7 @@
     去上面GitHub網站裡下載程式庫"Arduino-IRremote"的壓縮檔，
     
     解壓縮後放到Arduino下的libraries資料夾(C:\Users\User\Documents\Arduino\libraries)
-	![][]
+	![](https://github.com/JuniSmell/Use-IRremote-to-receive-signal-and-transmite/blob/main/picture/download_library.PNG)
 	![][]
 ### 解碼：
     ![][]
