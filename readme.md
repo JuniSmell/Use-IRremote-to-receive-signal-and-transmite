@@ -18,13 +18,15 @@
 
 ## 過程：
 ### 程式庫安裝：
-    去上面GitHub網站裡下載程式庫"Arduino-IRremote"的壓縮檔，解壓縮後放到Arduino下的libraries資料夾(C:\Users\User\Documents\Arduino\libraries)
+    去上面GitHub網站裡下載程式庫"Arduino-IRremote"的壓縮檔，
+    
+    解壓縮後放到Arduino下的libraries資料夾(C:\Users\User\Documents\Arduino\libraries)
 	![][]
 	![][]
 ### 解碼：
     ![][]
-	開啟程式庫裡面的範例，裡面有一個「ReceiveDump」，打開並加載進Arduino面板後，即可開始進行解碼。(預設的接收接腳為Pin 2)。
-	![][]
+    	開啟程式庫裡面的範例，裡面有一個「ReceiveDump」，打開並加載進Arduino面板後，即可開始進行解碼。(預設的接收接腳為Pin 2)。
+    	![][]
 	打開序列埠監控視窗，裡面會有各種數據，由於我們沒有辦法找出protocol，所以我們要直接從rowData下手，我是直接採用下面的uint16_t rawData[17]裡的數據。
     注意裡頭有一個9 bits，這個數字待會會用。
 	![][]
