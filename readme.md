@@ -23,15 +23,15 @@
 ![](https://github.com/JuniSmell/Use-IRremote-to-receive-signal-and-transmite/blob/main/picture/receive_signal.jpg)
 
     開啟程式庫裡面的範例，裡面有一個「ReceiveDump」，打開並加載進Arduino面板後，即可開始進行解碼。(預設的接收接腳為Pin 2)。
-![][https://github.com/JuniSmell/Use-IRremote-to-receive-signal-and-transmite/blob/main/picture/open_receiveDump.PNG]
+![](https://github.com/JuniSmell/Use-IRremote-to-receive-signal-and-transmite/blob/main/picture/open_receiveDump.PNG)
 
     打開序列埠監控視窗，裡面會有各種數據，由於我們沒有辦法找出protocol，所以我們要直接從rowData下手
     ，我是直接採用下面的uint16_t rawData[17]裡的數據。
     注意裡頭有一個9 bits，這個數字待會會用。
-![][https://github.com/JuniSmell/Use-IRremote-to-receive-signal-and-transmite/blob/main/picture/row.PNG]
+![](https://github.com/JuniSmell/Use-IRremote-to-receive-signal-and-transmite/blob/main/picture/row.PNG)
 
 ### 發送訊號：
-![][https://github.com/JuniSmell/Use-IRremote-to-receive-signal-and-transmite/blob/main/picture/transmit_signal.jpg]
+![](https://github.com/JuniSmell/Use-IRremote-to-receive-signal-and-transmite/blob/main/picture/transmit_signal.jpg)
 
     接下來打開demo檔，中間的就是所收集的rawData(注意有四個功能的數據很特別，後面解釋)。
     最下面則是負責發送訊號的函數IrSender.sendRaw(名稱、長度、前面提到的9 bits)。
