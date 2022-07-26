@@ -1,8 +1,8 @@
 # 利用Arduino接收紅外線訊號，並重新發送
 
 ## 目錄：
-@ [TOC]
-#程式庫安裝
+[背景](https://github.com/JuniSmell/Use-IRremote-to-receive-signal-and-transmite#%E8%83%8C%E6%99%AF-1)
+[參考與引用資料](https://github.com/JuniSmell/Use-IRremote-to-receive-signal-and-transmite#%E5%8F%83%E8%80%83%E8%88%87%E5%BC%95%E7%94%A8%E8%B3%87%E6%96%99-1)
 
 ## 背景
 最近老師買了一隻可遙控的機械狗，其遙控的方式為：
